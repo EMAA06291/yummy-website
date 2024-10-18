@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+.ul-nav {
+  list-style: none;
+  color: white;
+  padding: 0;
+}
+.ul-nav li {
+  padding-block: 7px;
+  cursor: pointer;
+}
+.rightSide {
+  width: 80%;
+}
+.side-nav {
+  overflow: hidden;
+}
+.logo {
+  width: 50px;
+}
+.manue-i {
+  font-size: 30px;
+}
+.side-nav i {
+  cursor: pointer;
+}
+.ul-nav li {
+  position: relative;
+}
+.meal-layer {
+  width: 100%;
+  height: 100%;
+  background-color: #f9f6f6ca;
+  top: 100%;
+  transition: 0.5s;
+}
+.meal-layer h3 {
+  font-size: 40px;
+}
+.meal:hover .meal-layer {
+  top: 0;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.loading-screen {
+  z-index: 999;
+  display: flex;
+  color: white;
+}
+
